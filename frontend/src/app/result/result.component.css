@@ -1,4 +1,48 @@
-@import url(https://fonts.googleapis.com/css?family=Noto+Serif:700);
+.bgimage{
+	margin: 0;
+	/* overflow: hidden; */
+	/* background: #222; */
+	background: radial-gradient(circle, #e6e8eb 0%, #4f5456 100%);
+	min-height: 100vh;
+	/* background-image: url("/assets/quiz.png"); */
+	/* object-fit: cover; */
+	/* background-size: co; */
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* @import url(https://fonts.googleapis.com/css?family=Noto+Serif:700);
 body{
 	margin: 0;
 	background: hsla(180, 95%, 15%, 1);
@@ -14,4 +58,4 @@ body{
 	position: absolute;
 	top :50%;
 	transform :translate( -50%, -50% );
-}
+} */

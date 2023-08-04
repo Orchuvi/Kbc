@@ -1,6 +1,12 @@
 <body>
     <app-test-component></app-test-component>
-    <div class=" bgimage1  w-screen h-screen" (onclick)="playAudio()">
+    <div class=" bgimage1 font-bold w-screen h-screen" (onclick)="playAudio()">
+        <div #myText class=" text1 text-white items-center justify-center" >
+            <ngx-typed-js [strings]="['Please enter your name to take Quiz']" [showCursor]="false" [typeSpeed]="25"
+                    [startDelay]="1000">
+                    <h1 class="typing italic"></h1>
+            </ngx-typed-js>
+        </div>
         <div class="logo" routerLink="/questions">
             <div class="rings">
                 <div class="ring">

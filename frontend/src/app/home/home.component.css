@@ -11,6 +11,16 @@
   /* background-size: co; */
 }
 
+.text1{
+  color: #232526;
+  position: absolute;
+  left: 50%;
+  margin-left: -160px;
+  top: 40%;
+  margin-top: -190px;
+  font-size: larger;
+}
+
 .logo {
   background-color: #232526;
   border-radius: 50%;

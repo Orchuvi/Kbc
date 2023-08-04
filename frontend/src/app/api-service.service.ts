@@ -19,7 +19,7 @@ export class ApiServiceService {
     return this.http.put(`${this.api}/updateQuestionStatus`,{id :qid });
   }
 
-  sendFile(uploadData:FormData){
-    return this.http.post(`${this.api}/upload`, {file:uploadData});
+  sendFile(uploadData:any){
+    return this.http.post(`${this.api}/upload`, {data:uploadData});
   }
 }
